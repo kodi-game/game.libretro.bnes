@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<buttonmap>
-	<controller id="game.controller.nes" type="joypad">
-		<feature name="a" mapto="a"/>
-		<feature name="b" mapto="b"/>
-		<feature name="start" mapto="start"/>
-		<feature name="select" mapto="select"/>
-		<feature name="up" mapto="up"/>
-		<feature name="down" mapto="down"/>
-		<feature name="right" mapto="right"/>
-		<feature name="left" mapto="left"/>
-	</controller>
-	<controller id="game.controller.nes.zapper" type="lightgun">
-		<feature name="trigger" mapto="trigger"/>
+<buttonmap version="2">
+	<controller id="game.controller.nes" type="RETRO_DEVICE_JOYPAD">
+		<feature name="a" mapto="RETRO_DEVICE_ID_JOYPAD_A"/>
+		<feature name="b" mapto="RETRO_DEVICE_ID_JOYPAD_B"/>
+		<feature name="start" mapto="RETRO_DEVICE_ID_JOYPAD_START"/>
+		<feature name="select" mapto="RETRO_DEVICE_ID_JOYPAD_SELECT"/>
+		<feature name="up" mapto="RETRO_DEVICE_ID_JOYPAD_UP"/>
+		<feature name="down" mapto="RETRO_DEVICE_ID_JOYPAD_DOWN"/>
+		<feature name="right" mapto="RETRO_DEVICE_ID_JOYPAD_RIGHT"/>
+		<feature name="left" mapto="RETRO_DEVICE_ID_JOYPAD_LEFT"/>
 	</controller>
 </buttonmap>
