@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.bnes"
-		name="NES / Famicom (bnes)"
+		name="Nintendo - NES / Famicom (bnes)"
 		version="0.83.0"
 		provider-name="Libretro">
 	<requires>
@@ -17,7 +17,7 @@
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">NES / Famicom (bnes) v083</summary>
+		<summary lang="en">Nintendo - NES / Famicom (bnes) v083</summary>
 		<description>libretro port of bNES, a NES emulator.
 
 Authors: byuu, Ryphecha.
