@@ -15,8 +15,8 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Nintendo - NES / Famicom (bnes) v083</summary>
-		<description>libretro port of bNES, a NES emulator.
+		<summary lang="en_GB">Nintendo - NES / Famicom (bnes) v083</summary>
+		<description lang="en_GB">libretro port of bNES, a NES emulator.
 
 Authors: byuu, Ryphecha.
 
