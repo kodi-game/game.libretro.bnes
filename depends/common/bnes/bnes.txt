@@ -1,1 +1,1 @@
-bnes https://github.com/libretro/bnes-libretro master
+bnes https://github.com/libretro/bnes-libretro/archive/cc082d12525aef654a815ecd4e03a6d0f52ceaa9.zip
