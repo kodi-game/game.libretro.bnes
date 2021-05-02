@@ -2,7 +2,7 @@
 <addon id="game.libretro.bnes"
 		name="Nintendo - NES / Famicom (bnes)"
 		version="0.83.0.7"
-		provider-name="byuu, Ryphecha">
+		provider-name="Near, Ryphecha">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 		<import addon="game.controller.nes" version="1.0.0"/>
