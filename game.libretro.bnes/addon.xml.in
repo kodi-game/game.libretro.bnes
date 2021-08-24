@@ -16,11 +16,8 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Nintendo - NES / Famicom (bnes) v083</summary>
-		<description lang="en_GB">libretro port of bNES, a NES emulator.
-
-Authors: byuu, Ryphecha.
-
-Supported files: .nes</description>
+		<description lang="en_GB">A libretro port of bNES, a NES emulator originally created by Byuu.</description>
+		<disclaimer>In loving memory of Near / Byuu</disclaimer>
 		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.bnes</source>
