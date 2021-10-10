@@ -24,3 +24,7 @@ msgstr ""
 msgctxt "Addon Description"
 msgid "A libretro port of bNES, a NES emulator originally created by Byuu."
 msgstr "bNES 的 libretro 实现，最初由 Byuu 创建的 NES 仿真器。"
+
+msgctxt "Addon Disclaimer"
+msgid "In loving memory of Near / Byuu"
+msgstr ""
