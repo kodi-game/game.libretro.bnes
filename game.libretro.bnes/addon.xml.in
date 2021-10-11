@@ -29,6 +29,7 @@
 		<description lang="en_GB">A libretro port of bNES, a NES emulator originally created by Byuu.</description>
 		<description lang="ko_KR">원래 Byuu에서 만든 NES 에뮬레이터인 bNES의 libretro 포트입니다.</description>
 		<description lang="zh_CN">bNES 的 libretro 实现，最初由 Byuu 创建的 NES 仿真器。</description>
+		<disclaimer lang="da_DK">I kærligt minde om Near / Byuu</disclaimer>
 		<disclaimer lang="en_GB">In loving memory of Near / Byuu</disclaimer>
 	</extension>
 </addon>
