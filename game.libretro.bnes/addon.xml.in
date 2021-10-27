@@ -26,6 +26,7 @@
 			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 		<summary lang="en_GB">Nintendo - NES / Famicom (bnes) v083</summary>
+		<description lang="da_DK">En libretro-port af bNES, en NES-emulator oprindeligt skabt af Byuu.</description>
 		<description lang="en_GB">A libretro port of bNES, a NES emulator originally created by Byuu.</description>
 		<description lang="ko_KR">원래 Byuu에서 만든 NES 에뮬레이터인 bNES의 libretro 포트입니다.</description>
 		<description lang="zh_CN">bNES 的 libretro 实现，最初由 Byuu 创建的 NES 仿真器。</description>
