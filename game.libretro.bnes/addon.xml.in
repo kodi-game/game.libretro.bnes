@@ -32,6 +32,7 @@
 		<description lang="zh_CN">bNES 的 libretro 实现，最初由 Byuu 创建的 NES 仿真器。</description>
 		<disclaimer lang="da_DK">I kærligt minde om Near / Byuu</disclaimer>
 		<disclaimer lang="en_GB">In loving memory of Near / Byuu</disclaimer>
+		<disclaimer lang="ko_KR">Near / Byuu의 사랑을 기억하며</disclaimer>
 		<disclaimer lang="zh_CN">怀念 Near / Byuu</disclaimer>
 	</extension>
 </addon>
