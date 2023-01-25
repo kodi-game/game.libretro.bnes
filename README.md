@@ -13,7 +13,7 @@ GPLv3
 
 ### Icon
 
-![Icon](game.libretro.bnes/resources/icon.png)
+![Nintendo - NES / Famicom (bnes) icon](game.libretro.bnes/resources/icon.png)
 
 ### Fanart
 
@@ -21,9 +21,9 @@ Help make me fanart!
 
 ### Screenshots
 
-![Screenshot](game.libretro.bnes/resources/screenshot-01.jpg)
-![Screenshot](game.libretro.bnes/resources/screenshot-02.jpg)
-![Screenshot](game.libretro.bnes/resources/screenshot-03.jpg)
+![Nintendo - NES / Famicom (bnes) screenshot](game.libretro.bnes/resources/screenshot-01.jpg)
+![Nintendo - NES / Famicom (bnes) screenshot](game.libretro.bnes/resources/screenshot-02.jpg)
+![Nintendo - NES / Famicom (bnes) screenshot](game.libretro.bnes/resources/screenshot-03.jpg)
 
 ### Disclaimer
 
