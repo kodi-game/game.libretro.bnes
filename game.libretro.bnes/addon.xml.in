@@ -28,6 +28,7 @@
 		<summary lang="da_DK">Nintendo - NES / Famicom (bnes)</summary>
 		<summary lang="en_GB">Nintendo - NES / Famicom (bnes)</summary>
 		<summary lang="es_ES">Nintendo - NES / Famicom (bnes)</summary>
+		<summary lang="it_IT">Nintendo - NES / Famicom (bnes)</summary>
 		<summary lang="zh_CN">任天堂 - NES / Famicom (bnes)</summary>
 		<description lang="da_DK">En libretro-port af bNES, en NES-emulator oprindeligt skabt af Byuu.</description>
 		<description lang="de_DE">Ein libretro-Port von bNES, einem NES-Emulator, der ursprünglich von Byuu entwickelt wurde.</description>
