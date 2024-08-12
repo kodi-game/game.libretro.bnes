@@ -1,0 +1,84 @@
+From ef980714002bc124a706b8626b1b263d6e961997 Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Sun, 11 Aug 2024 20:35:18 -0700
+Subject: [PATCH 1/2] Fix building on macOS
+
+Errors were:
+
+  ./nall/bit.hpp:29:3: error: unknown type name 'constexpr'
+    constexpr inline uintmax_t mask(const char* s, uintmax_t sum = 0) {
+    ^
+
+  ./nall/file.hpp:168:21: error: variable has incomplete type 'struct stat64'
+        struct stat64 data;
+                      ^
+
+  libco/aarch64.c:15:10: fatal error: 'malloc.h' file not found
+  #include <malloc.h>
+           ^~~~~~~~~~
+---
+ Makefile        |  3 ++-
+ libco/aarch64.c |  2 +-
+ nall/file.hpp   | 12 ++++++++++++
+ 3 files changed, 15 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 4b0c268..a0d1d0c 100644
+--- a/Makefile
++++ b/Makefile
+@@ -5,6 +5,7 @@ TARGET_NAME := BNES
+ ifeq ($(platform),osx)
+    fpic := -fPIC
+    TARGET := bnes_libretro.dylib
++   flags += -DHAVE_POSIX_MEMALIGN
+ else ifneq (,$(findstring ios,$(platform)))
+    fpic := -fPIC
+    TARGET := bnes_libretro_ios.dylib
+@@ -104,7 +105,7 @@ ifeq ($(platform),ios-arm64)
+    cpp := $(CXX) -std=c++11 -stdlib=libc++ #-std=gnu++0x
+ else
+    c := $(CC) -std=gnu99
+-   cpp := $(CXX) #-std=gnu++0x
++   cpp := $(CXX) -std=gnu++0x
+ endif
+ 
+ flags += $(opt) -fomit-frame-pointer -fno-tree-vectorize -I. $(fpic)
+diff --git a/libco/aarch64.c b/libco/aarch64.c
+index 3c3b2f8..1a88ab9 100644
+--- a/libco/aarch64.c
++++ b/libco/aarch64.c
+@@ -11,7 +11,7 @@
+ #include <string.h>
+ #include <stdint.h>
+ 
+-#ifndef IOS
++#if !defined(IOS) && !defined(__APPLE__)
+ #include <malloc.h>
+ #endif
+ 
+diff --git a/nall/file.hpp b/nall/file.hpp
+index 5b4f4d1..fdc0d35 100644
+--- a/nall/file.hpp
++++ b/nall/file.hpp
+@@ -1,6 +1,18 @@
+ #ifndef NALL_FILE_HPP
+ #define NALL_FILE_HPP
+ 
++#if defined(_WIN32)
++#include <sys/types.h>
++#include <sys/stat.h>
++#define stat64 _stat64
++#elif defined(__APPLE__) || defined(__MACH__)
++#include <sys/types.h>
++#include <sys/stat.h>
++#define stat64 stat
++#elif defined(__linux__)
++#include <sys/stat.h>
++#endif
++
+ #include <nall/platform.hpp>
+ #include <nall/stdint.hpp>
+ #include <nall/string.hpp>
+-- 
+2.34.1
+
