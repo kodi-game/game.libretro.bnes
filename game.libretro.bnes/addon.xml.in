@@ -30,6 +30,7 @@
 		<summary lang="es_ES">Nintendo - NES / Famicom (bnes)</summary>
 		<summary lang="it_IT">Nintendo - NES / Famicom (bnes)</summary>
 		<summary lang="ko_KR">닌텐도 - NES / Famicom(bnes)</summary>
+		<summary lang="ru_RU">Nintendo - NES / Famicom (bnes)</summary>
 		<summary lang="sv_SE">Nintendo - NES / Famicom (bnes)</summary>
 		<summary lang="zh_CN">任天堂 - NES / Famicom (bnes)</summary>
 		<description lang="da_DK">En libretro-port af bNES, en NES-emulator oprindeligt skabt af Byuu.</description>
@@ -38,6 +39,7 @@
 		<description lang="es_ES">Una adaptación libretro de bNES, un emulador de NES creado originalmente por Byuu.</description>
 		<description lang="it_IT">Un port libretro di bNES, un emulatore NES originariamente creato da Byuu.</description>
 		<description lang="ko_KR">원래 Byuu에서 만든 NES 에뮬레이터인 bNES의 libretro 포트입니다.</description>
+		<description lang="ru_RU">Libretro-порт bNES, эмулятора NES, изначально созданного Byuu.</description>
 		<description lang="sv_SE">En libretroport av bNES, en NES-emulator som ursprungligen skapades av Byuu.</description>
 		<description lang="zh_CN">bNES 的 libretro 实现，最初由 Byuu 创建的 NES 仿真器。</description>
 		<disclaimer lang="da_DK">I kærligt minde om Near / Byuu</disclaimer>
