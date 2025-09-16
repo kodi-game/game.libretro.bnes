@@ -28,6 +28,7 @@
 		<summary lang="da_DK">Nintendo - NES / Famicom (bnes)</summary>
 		<summary lang="en_GB">Nintendo - NES / Famicom (bnes)</summary>
 		<summary lang="es_ES">Nintendo - NES / Famicom (bnes)</summary>
+		<summary lang="ga">Nintendo - NES / Famicom (bnes)</summary>
 		<summary lang="it_IT">Nintendo - NES / Famicom (bnes)</summary>
 		<summary lang="ko_KR">닌텐도 - NES / Famicom(bnes)</summary>
 		<summary lang="ru_RU">Nintendo - NES / Famicom (bnes)</summary>
@@ -37,6 +38,7 @@
 		<description lang="de_DE">Ein libretro-Port von bNES, einem NES-Emulator, der ursprünglich von Byuu entwickelt wurde.</description>
 		<description lang="en_GB">A libretro port of bNES, a NES emulator originally created by Byuu.</description>
 		<description lang="es_ES">Una adaptación libretro de bNES, un emulador de NES creado originalmente por Byuu.</description>
+		<description lang="ga">Port libretro de bNES, aithriseoir NES a chruthaigh Byuu ar dtús.</description>
 		<description lang="it_IT">Un port libretro di bNES, un emulatore NES originariamente creato da Byuu.</description>
 		<description lang="ko_KR">원래 Byuu에서 만든 NES 에뮬레이터인 bNES의 libretro 포트입니다.</description>
 		<description lang="ru_RU">Libretro-порт bNES, эмулятора NES, изначально созданного Byuu.</description>
@@ -46,6 +48,7 @@
 		<disclaimer lang="de_DE">In liebevoller Erinnerung an Near / Byuu</disclaimer>
 		<disclaimer lang="en_GB">In loving memory of Near / Byuu</disclaimer>
 		<disclaimer lang="es_ES">En cariñoso recuerdo de Near / Byuu</disclaimer>
+		<disclaimer lang="ga">I ngrá le Near / Byuu</disclaimer>
 		<disclaimer lang="it_IT">In amorevole ricordo di Near / Byuu</disclaimer>
 		<disclaimer lang="ko_KR">Near / Byuu의 사랑을 기억하며</disclaimer>
 		<disclaimer lang="ru_RU">В память о Near / Byuu</disclaimer>
